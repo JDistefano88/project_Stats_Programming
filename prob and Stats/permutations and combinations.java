@@ -11,12 +11,12 @@ public class permAndCombo
         }
         return f;
     }
-    public static void main(String args[])
+    public static void main(String args[]) // this exicutes the permutation and combination for two numbers
     {
         int n = 6, r = 4, permutation, combination;
         permutation = factorial(n) / factorial(n-r);
         combination = factorial(n) / (factorial(r) * factorial(n-r));
-        System.out.println("Permutatiion of " + n + " and " + r + " is " + permutation);
+        System.out.println("Permutation of " + n + " and " + r + " is " + permutation);
         System.out.println("combination of " + n + " and " + r + " is " + combination);
     }
 }
